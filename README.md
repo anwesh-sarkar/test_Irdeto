@@ -28,3 +28,19 @@ let flipArray = (arr, k) => {
   }
 };
 ```
+Then, we find the next max value and reverse the array with the index of that max value.
+
+After cloning the repo, please run
+```
+yarn
+```
+or
+```
+npm init
+```
+
+The unit tests for this algorithm are written in jest and they exist in the unit-test folder.
+To run these tests, please run
+```
+yarn test
+```
