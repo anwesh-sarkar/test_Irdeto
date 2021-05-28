@@ -29,6 +29,12 @@ let flipArray = (arr, k) => {
 };
 ```
 Then, we find the next max value and reverse the array with the index of that max value.
+The constraints of the algorithm are:
+* The array is not empty
+* All elements in the array are unique
+* The value of each element is > 0 and < length of array
+* The values do not repeat
+* The number of reversals does not exceed 10 times array length
 
 After cloning the repo, please run
 ```
