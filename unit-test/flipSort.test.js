@@ -12,6 +12,14 @@ describe("flip sorting of [1,2,3,4] should produce []", () => {
   });
 });
 
+describe('invalid element of [2,"a",1] should produce []', () => {
+  test('flip sort of [2,"a",1]', () => {
+    expect(flipSort([2, "a", 1])).toEqualCaseInsensitive(
+      "Invalid Array. Elements may not be numbers"
+    );
+  });
+});
+
 describe("invalid element less than 1 thrown on flip sorting [0,2,1]", () => {
   test("flip sort of [0,2,1]", () => {
     expect(flipSort([0, 2, 1])).toEqualCaseInsensitive(

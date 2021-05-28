@@ -64,11 +64,21 @@ let checkLengthOfArray = (arr) => {
   return result;
 };
 
+// check that each element is of type number
+let checkElemIsInt = (arr) => {
+  let checkElem = arr.every((value) => {
+    return typeof value == "number";
+  });
+  return checkElem;
+};
+
 //perform flip sort
 var flipSort = function (arr) {
   let output = [];
 
-  if (checkElemConstraint(arr) === false) {
+  if (checkElemIsInt(arr) === false) {
+    return "Invalid Array. Elements may not be numbers";
+  } else if (checkElemConstraint(arr) === false) {
     return "Invalid Array. An element is either < 1 OR > array length";
   } else if (checkHasDuplicate(arr) === true) {
     return "Invalid Array. Array has duplicate elements";
