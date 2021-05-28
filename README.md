@@ -42,7 +42,7 @@ yarn
 ```
 or
 ```
-npm init
+npm install
 ```
 
 The unit tests for this algorithm are written in jest and they exist in the unit-test folder.
