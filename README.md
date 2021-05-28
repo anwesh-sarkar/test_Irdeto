@@ -44,3 +44,7 @@ To run these tests, please run
 ```
 yarn test
 ```
+or
+```
+npm test
+```
