@@ -1,0 +1,30 @@
+{
+  "name": "irdeto",
+  "version": "1.0.0",
+  "description": "",
+  "main": "flipSort.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anwesh-sarkar/test_Irdeto.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anwesh-sarkar/test_Irdeto/issues"
+  },
+  "homepage": "https://github.com/anwesh-sarkar/test_Irdeto#readme",
+  "devDependencies": {
+    "jest": "^27.0.1"
+  },
+  "dependencies": {
+    "jest-extended": "^0.11.5"
+  },
+  "jest": {
+    "setupFilesAfterEnv": [
+      "jest-extended"
+    ]
+  }
+}
