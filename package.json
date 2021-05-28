@@ -20,7 +20,9 @@
     "jest": "^27.0.1"
   },
   "dependencies": {
-    "jest-extended": "^0.11.5"
+    "jest-cucumber": "^3.0.1",
+    "jest-extended": "^0.11.5",
+    "node-fetch": "^2.6.1"
   },
   "jest": {
     "setupFilesAfterEnv": [

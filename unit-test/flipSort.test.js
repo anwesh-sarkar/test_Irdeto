@@ -1,6 +1,6 @@
 const flipSort = require("../flipSort");
 
-describe("flip sorting of [3,2,4,1] should produce [3,4,2,3,1,2,2,4,1]", () => {
+describe("flip sorting of [3,2,4,1] should produce [3,4,2,3,1,2]", () => {
   test("flip sort of [3,2,4,1]", () => {
     expect(flipSort([3, 2, 4, 1])).toEqual([3, 4, 2, 3, 1, 2]);
   });
